@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="NetCoreProxy\Attributes\" />
+    <Folder Include="NetCoreProxy\Configuration\" />
+    <Folder Include="NetCoreProxy\Extensions\" />
+    <Folder Include="NetCoreProxy\Interfaces\" />
+    <Folder Include="NetCoreProxy\Internal\" />
+    <Folder Include="NetCoreProxy\Strategies\" />
+    <Folder Include="Transaction\Interceptors\" />
+    <Folder Include="Transaction\Attributes\" />
+  </ItemGroup>
+
+</Project>
