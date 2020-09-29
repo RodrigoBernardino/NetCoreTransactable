@@ -5,14 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="NetCoreProxy\Attributes\" />
-    <Folder Include="NetCoreProxy\Configuration\" />
-    <Folder Include="NetCoreProxy\Extensions\" />
-    <Folder Include="NetCoreProxy\Interfaces\" />
-    <Folder Include="NetCoreProxy\Internal\" />
-    <Folder Include="NetCoreProxy\Strategies\" />
-    <Folder Include="Transaction\Interceptors\" />
-    <Folder Include="Transaction\Attributes\" />
+    <None Remove="NetCoreProxy\Extensions\ServiceCollectionExtensions.cs~RF193cf0.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.7" />
   </ItemGroup>
 
 </Project>
